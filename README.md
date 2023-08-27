@@ -5,7 +5,7 @@ This repository contains information about Data Analysis, including the course o
 # Content
 
 - [SCHEDULE](#Schedule)
-- [Instructor](#Instructor)
+- [Instructors](#Instructors)
 - [Meeting Times](#Meeting-times)
 - [Discord](#Discord)
 - [Course Calendar](#Calendar)
@@ -14,7 +14,7 @@ This repository contains information about Data Analysis, including the course o
 - [Course Description](#Course-Description)
 - [Distribution Requirements](#Distribution-Requirements)
 - [Suggested Textbooks](#Suggested-Textbooks)
-- [Course Policies](#Course-Policies)
+- [Course Policies](#Policies)
 - [Grading](#grading)
 - [Assignment Submissions](#Assignment-Submissions)
 - [Gradebook Repository](#Gradebook-Repository)
