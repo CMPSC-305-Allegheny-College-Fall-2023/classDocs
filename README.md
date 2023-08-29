@@ -23,14 +23,18 @@ This repository contains information about Data Analysis, including the course o
 ## Instructors
 
 * Dr. Oliver Bonham-Carter  (Note: said and written as __Bonham-Carter__, not _Carter_)
-    + Office Location: Alden Hall 105
+    + Office Location: Alden Hall 205
 
 Email: obonhamcarter@allegheny.edu
 
 [Office Hours](https://www.oliverbonhamcarter.com/contactandabout/)
 
 * Dr. Hang Zhao
+    + Office Location: Alden Hall 104.
 
+Email: hzhao@allegheny.edu
+
+[Office Hours](https://calendar.app.google/uS6F298mrJj2hRbEA)
 
 ## Meeting Times
 
@@ -40,21 +44,17 @@ Email: obonhamcarter@allegheny.edu
 |Class   | Thursday | 9:30am - 10:45am | Alden 101
 |Lab     | Thursday | 2:30pm - 4:20pm  | Alden 101
 
-
-
 ### Discord
 
 If you are already on the department's Discord server, then you will be given access to the course's Discord channel, called `#data-analytics`. If not, then you will need to join the department's Discord server before you can be added to the course's channel.
 
 **Note**: During the first week or so, I will manually add your name to the class' Discord channel.
 
-
 ### Calendar
 
 [Course Calendar Link](https://calendar.google.com/calendar/u/0?cid=Y181ZTM3NmRiNjJmMjBlM2I1NjE5NTZjYzY0MzNiZmYyNzUwZjAwNTA4MDY2MWJhNmMxZTk0NzEwMGJkODhiZTNiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 
 <iframe src="https://calendar.google.com/calendar/embed?src=c_5e376db62f20e3b561956cc6433bff2750f005080661ba6c1e947100bd88be3b%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
 
 ## `classDocs/`
 All materials given out in class will be accessible using the `classDocs/` repository. Note: The HTTP link works in absence of SSH keys.
@@ -173,7 +173,6 @@ git push
 ```
 **Note**: The commit message is supposed to be a meaning message about the pushed work. Please do not add commit states such as **My homework**, **Done**, **Oh yeah!**, or the like -- these message provide no information about the work that was sent to GitHub.
 
-
 ### Late Submissions
 
 All assignments will have a stated due date. The electronic version of the class assignments are to be turned in at the beginning of the lab session on the due date. Submissions after the beginning of class are counted as being late.
@@ -236,9 +235,9 @@ Below is a schedule of covered topics as we cover them, along with their associa
 Week # | Dates   | Topic |
 ---------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 1 | 29 August 2023  | [Syllabus](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs#readme) , [classDocs/](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs), Introduction to the course, Why databases systems?|
-1 | 31st August 2023 | Activity |
+1 | 31st August 2023 | Discussion and Activity |
 1 | | No lab| N/A |
 2 | 5th Sept | Focus on Applications
 2 | 7th Sept | Activity: Installing and Using Tools; Git, Docker, Sqlite3
-2 | 7th Sept | [Lab assignment 01](http://www.oliverbonhamcarter.com) Note: you will have to refresh your GitHub page after clicking on this link. 
+2 | 7th Sept | Lab assignment 01 Note: you will have to refresh your GitHub page after clicking on this link. 
 3 | |
