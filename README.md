@@ -1,6 +1,6 @@
-# Data Analytics (CMPSC 301) Course Syllabus
+# Database Systems (CMPSC 305) Course Syllabus
 
-This repository contains information about Data Analysis, including the course objectives, policies and the schedule. Please check this repository regularly for updates to the policies and the schedule.
+This repository contains information about Database Systems, including the course objectives, policies and the schedule. Please check this repository regularly for updates to the policies and the schedule.
 
 # Content
 
@@ -72,6 +72,7 @@ Credits: 4
 A study of the application and evaluation of database management systems. Participating in hands-on activities that often require teamwork, students design, implement, and deploy database systems that store interdisciplinary data sets. In addition to learning how to develop and assess interfaces for databases, students study the efficiency and effectiveness of alternative data management systems. During a weekly laboratory session students use industry-grade technology to complete projects, reporting on their results through both written documents and oral presentations. Students are invited to use their own departmentally approved laptop in this course; a limited number of laptops are available for use during class and lab sessions. Prerequisite: CMPSC 101. Distribution Requirements: QR, SP.
 
 ## Distribution Requirements
+
 The following definitions were taken from the Distribution Requirements: Learning Outcomes website, https://sites.allegheny.edu/registrar/academic-policies/ graduation-requirements/distribution-requirement/ distribution-requirements-learning-outcomes/.
 
 * Quantitative Reasoning (QR). Quantitative Reasoning is the ability to understand, investigate, communicate, and contextualize numerical, symbolic, and graphical information towards the exploration of natural, physical, behavioral, or social phenomena.
@@ -194,6 +195,8 @@ Various digital channels will be used in this course for communication, includin
 Additionally, the course website will be used to store the syllabus, course schedule and information about the `classDocs/` repository using the GitHub.  Your grades will be communicated to you by a Gradebook GitHub repository.
 
 ### Gradebook Repository
+
+You will be using GitHub to keep track of your grades in this class. The link to this resource will be provided in soon.
 
 * GradeBook repository: (TBA)
 
