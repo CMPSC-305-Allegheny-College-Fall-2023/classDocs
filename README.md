@@ -212,10 +212,11 @@ The Americans with Disabilities Act (ADA) is a federal anti-discrimination statu
 
 Some of the resources on campus are listed below.
 
-*  [Maytum Center for Student Success](https://sites.allegheny.edu/studentsuccess/)
-*  [Allegheny College Counseling Center](https://sites.allegheny.edu/counseling/)
-*  [The Winslow Health Center](https://sites.allegheny.edu/healthcenter/)
-*  [Student Life](https://sites.allegheny.edu/studentlife/)
+* [Maytum Center for Student Success](https://sites.allegheny.edu/studentsuccess/)
+* [Allegheny College Counseling Center](https://sites.allegheny.edu/counseling/)
+* [The Winslow Health Center](https://sites.allegheny.edu/healthcenter/)
+* [Student Life](https://sites.allegheny.edu/studentlife/)
+* [Student Accessibility and Support Services](https://sites.allegheny.edu/studentaccessibility/)
 
 ### Honor Code
 
