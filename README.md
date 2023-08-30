@@ -52,9 +52,8 @@ If you are already on the department's Discord server, then you will be given ac
 
 ### Calendar
 
-[Course Calendar Link](https://calendar.google.com/calendar/u/0?cid=Y181ZTM3NmRiNjJmMjBlM2I1NjE5NTZjYzY0MzNiZmYyNzUwZjAwNTA4MDY2MWJhNmMxZTk0NzEwMGJkODhiZTNiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+[Course Calendar Link](https://calendar.google.com/calendar/u/0/embed?src=c_5e376db62f20e3b561956cc6433bff2750f005080661ba6c1e947100bd88be3b@group.calendar.google.com&ctz=America/New_York)
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_5e376db62f20e3b561956cc6433bff2750f005080661ba6c1e947100bd88be3b%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## `classDocs/`
 All materials given out in class will be accessible using the `classDocs/` repository. Note: The HTTP link works in absence of SSH keys.
