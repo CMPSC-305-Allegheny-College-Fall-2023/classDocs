@@ -240,7 +240,9 @@ Week # | Dates   | Topic |
 1 | 29 August 2023  | [Syllabus](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs#readme) , [classDocs/](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs), Introduction to the course, Why databases systems?|
 1 | 31st August 2023 | Discussion and Activity |
 1 | | No lab| N/A |
-2 | 5th Sept | Focus on Applications
-2 | 7th Sept | Activity: Installing and Using Tools; Git, Docker, Sqlite3
-2 | 7th Sept | Lab assignment 01 Note: you will have to refresh your GitHub page after clicking on this link. 
-3 | |
+2 | 5th Sept, Tuesday Class | Focus on Applications, faults and SQL code
+2 | 7th Sept, Thursday Class | Activity 01 
+2 | 7th Sept, Thursday | Lab assignment 01 Note: you will have to refresh your GitHub page after clicking on this link. 
+3 | 12th Sept, Tuesday Class|
+3 | 14th Sept, Thursday Class|
+3 | 14th Sept, Thursday|
