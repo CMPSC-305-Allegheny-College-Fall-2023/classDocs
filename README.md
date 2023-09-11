@@ -246,3 +246,6 @@ Week # | Dates   | Topic |
 3 | 12th Sept, Tuesday Class| SQLite3 and Single table DBs|
 3 | 14th Sept, Thursday Class| |
 3 | 14th Sept, Thursday||
+4 | 18th Sept, Tuesday Class| SQLite3 and Single table DBs|
+4 | 20th Sept, Thursday Class| |
+4 | 20th Sept, Thursday||
