@@ -195,9 +195,9 @@ Additionally, the course website will be used to store the syllabus, course sche
 
 ### Gradebook Repository
 
-You will be using GitHub to keep track of your grades in this class. The link to this resource will be provided in soon.
+We will be using GitHub to keep track of your grades in this class. Use the below link to establish your grade_book reposiory. I will be saving grades and feedback in a report file and sending it to this repository for each member of the class.
 
-* GradeBook repository: (TBA)
+* GradeBook repository: https://classroom.github.com/a/tk6oZ53N
 
 ### Bring your own computer to class
 
