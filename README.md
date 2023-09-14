@@ -151,7 +151,7 @@ The grade that a student receives in this class will be based on the following c
 
 #### Gradebook Repository
 
-We will be using GitHub to keep track of your grades in this class. Use the below link to establish your grade_book reposiory. I will be saving grades and feedback in a report file and sending it to this repository for each member of the class.
+We will be using GitHub to keep track of your grades in this class. Use the below link to establish your grade_book reposiory. I will be saving grades and feedback in a report file and sending it to this repository for each member of the class. Note: once you have accepted the homework (to which you will never have to submit anything), you can continue to use this link to access your `grade_book` repository. Cool, right?! 
 
 * GradeBook repository: https://classroom.github.com/a/tk6oZ53N
 
