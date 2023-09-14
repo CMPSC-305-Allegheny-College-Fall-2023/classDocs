@@ -243,9 +243,9 @@ Week # | Dates   | Topic |
 2 | 5th Sept, Tuesday Class | Focus on Applications, faults and SQL code
 2 | 7th Sept, Thursday Class | [Activity 01](https://classroom.github.com/a/8NOsKp2G)
 2 | 7th Sept, Thursday | [Lab01](https://classroom.github.com/a/Lk_R2L-F) *Note*: you will have to refresh your GitHub page after clicking on this link. |
-3 | 12th Sept, Tuesday Class| SQLite3 and single table persistant dataabases|
-3 | 14th Sept, Thursday Class| |
-3 | 14th Sept, Thursday||
+3 | 12th Sept, Tuesday Class| SQLite3 and single table persistent databases|
+3 | 14th Sept, Thursday Class| Single tables and importing data [Activity 02](https://classroom.github.com/a/Z2eDzQ58)
+3 | 14th Sept, Thursday| Lab02|
 4 | 19th Sept, Tuesday Class| |
 4 | 21st Sept, Thursday Class| |
 4 | 21st Sept, Thursday||
