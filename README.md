@@ -149,7 +149,13 @@ The grade that a student receives in this class will be based on the following c
 |C+           | 77 - 79.9  |C            | 73 - 76.9  |C-           | 70 - 72.9  |
 |D+           | 67 - 69.9  |D            | 63 - 66.9  |F           | 59.9 and below  |
 
-### Definitions of Grading Categories
+#### Gradebook Repository
+
+We will be using GitHub to keep track of your grades in this class. Use the below link to establish your grade_book reposiory. I will be saving grades and feedback in a report file and sending it to this repository for each member of the class.
+
+* GradeBook repository: https://classroom.github.com/a/tk6oZ53N
+
+#### Definitions of Grading Categories
 
  + __Class Participation__: All students are required to actively participate during all of the class sessions. Your participation will take forms such as answering questions about the required reading assignments, completing in-class exercises, asking constructive questions of the other members of the class, giving presentations, leading a discussion session in class.
 
@@ -192,12 +198,6 @@ The decision to provide you with an extension (or not) will be weighed in light 
 Various digital channels will be used in this course for communication, including email, Discord, and the GitHub issue tracker. It is strongly advised for the student to install the Discord app on their computer and smart-phone to be sure to receive all communications from the instructor, as well as, the other members of the class.
 
 Additionally, the course website will be used to store the syllabus, course schedule and information about the `classDocs/` repository using the GitHub.  Your grades will be communicated to you by a Gradebook GitHub repository.
-
-### Gradebook Repository
-
-We will be using GitHub to keep track of your grades in this class. Use the below link to establish your grade_book reposiory. I will be saving grades and feedback in a report file and sending it to this repository for each member of the class.
-
-* GradeBook repository: https://classroom.github.com/a/tk6oZ53N
 
 ### Bring your own computer to class
 
