@@ -246,6 +246,6 @@ Week # | Dates   | Topic |
 3 | 12th Sept, Tuesday Class| SQLite3 and single table persistent databases|
 3 | 14th Sept, Thursday Class| Single tables and importing data [Activity 02](https://classroom.github.com/a/Z2eDzQ58)
 3 | 14th Sept, Thursday| [Lab 02](https://classroom.github.com/a/A7J5bNso)|
-4 | 19th Sept, Tuesday Class| |
-4 | 21st Sept, Thursday Class| |
+4 | 19th Sept, Tuesday Class designing a database with multiple Tables| |
+4 | 21st Sept, Thursday Class| Working with multiple tables in SQL [Activity 03](https://classroom.github.com/a/O-V0I1hr) |
 4 | 21st Sept, Thursday||
