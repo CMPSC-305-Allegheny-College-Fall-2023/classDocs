@@ -248,4 +248,4 @@ Week # | Dates   | Topic |
 3 | 14th Sept, Thursday| [Lab 02](https://classroom.github.com/a/A7J5bNso)|
 4 | 19th Sept, Tuesday | Class designing a database with multiple Tables |
 4 | 21st Sept, Thursday Class| Working with multiple tables in SQL [Activity 03](https://classroom.github.com/a/O-V0I1hr) |
-4 | 21st Sept, Thursday||
+4 | 21st Sept, Thursday| [Lab 03](https://classroom.github.com/a/r05cVH4X)|
