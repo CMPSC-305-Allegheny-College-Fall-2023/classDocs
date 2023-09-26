@@ -249,3 +249,6 @@ Week # | Dates   | Topic |
 4 | 19th Sept, Tuesday | Class designing a database with multiple Tables |
 4 | 21st Sept, Thursday Class| Working with multiple tables in SQL [Activity 03](https://classroom.github.com/a/O-V0I1hr) |
 4 | 21st Sept, Thursday| [Lab 03](https://classroom.github.com/a/r05cVH4X)|
+5 | 19th Sept, Tuesday | A focus on queries: structure and usage |
+5 | 28th Sept, Thursday Class| Working with queries. |
+5 | 28st Sept, Thursday| |
