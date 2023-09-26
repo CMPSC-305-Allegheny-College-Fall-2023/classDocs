@@ -1,0 +1,128 @@
+/* 24 Sept 2023 */
+
+/*Creates a database concerning class, Instructor and Student information*/
+
+
+/* Enable foreign keys: automatically check any foreign key constraints */
+PRAGMA foreign_keys = ON; /* Enable foreign keys */
+
+
+
+DROP TABLE IF EXISTS Teaches;
+create table Teaches (
+ID        varchar NOT NULL,
+courseId  varchar,
+secId     varchar,
+semester  varchar,
+year      varchar);
+
+
+
+DROP TABLE IF EXISTS Department;
+create table Department (
+courseId    varchar,
+courseType  varchar,
+deptName    varchar primary key);
+
+
+
+DROP TABLE IF EXISTS Instructor;
+create table Instructor (
+ID        varchar primary key,
+name      varchar NOT NULL,
+studentId   varchar,
+deptName  varchar,
+salary    numeric,
+foreign key (deptName) references Department(deptName));
+
+
+
+
+DROP TABLE IF EXISTS Student;
+create table Student (
+ID        varchar primary key,
+name      varchar NOT NULL,
+deptName  varchar,
+totCred   numeric,
+foreign key (deptName) references Department(deptName));
+
+
+
+DROP TABLE IF EXISTS Course;
+create table Course (
+courseId   varchar primary key,
+title      varchar,
+deptName   varchar,
+credits    numeric,
+foreign key (deptName) references Department(deptName));
+
+
+INSERT INTO Teaches VALUES ("10101","CS-101","1","Fall","2009");
+INSERT INTO Teaches VALUES ("10101","CS-201","1","Spring","2010");
+INSERT INTO Teaches VALUES ("10101","CS-301","1","Fall","2009");
+INSERT INTO Teaches VALUES ("10101","CS-401","1","Fall","2009");
+INSERT INTO Teaches VALUES ("10101","CS-102","1","Fall","2009");
+INSERT INTO Teaches VALUES ("10102","CS-202","1","Spring","2010");
+INSERT INTO Teaches VALUES ("10103","CS-302","1","Fall","2010");
+INSERT INTO Teaches VALUES ("10104","CS-402","1","Spring","2011");
+INSERT INTO Teaches VALUES ("10104","CS-502","1","Fall","2016");
+INSERT INTO Teaches VALUES ("10105","CS-604","1","Spring","2016");
+
+
+
+
+INSERT INTO Department VALUES ("101c","CS","CompSci");
+INSERT INTO Department VALUES ("101m","Mth","Math");
+INSERT INTO Department VALUES ("201cb","CmpBio","CompBio");
+INSERT INTO Department VALUES ("300h","Hst","History");
+INSERT INTO Department VALUES ("300p","Phl","Philosophy");
+INSERT INTO Department VALUES ("200e","Eng","English");
+INSERT INTO Department VALUES ("200f","FR","French");
+
+
+
+
+
+INSERT INTO Instructor VALUES ("10101","Miller","S1","CompSci", 90000.00);
+INSERT INTO Instructor VALUES ("10102","Johnson","S1","CompSci", 90000.00);
+INSERT INTO Instructor VALUES ("10103","Charleson","S2","CompSci", 70000.00);
+INSERT INTO Instructor VALUES ("10104","Thompson","S2","CompSci", 100000.00);
+INSERT INTO Instructor VALUES ("10105","Mauler","S3","Math", 99000.00);
+INSERT INTO Instructor VALUES ("10106","Jackson","S3","CompSci", 98000.00);
+INSERT INTO Instructor VALUES ("10107","Chesterfield","S3","CompBio", 97000.00);
+INSERT INTO Instructor VALUES ("10108","Jenkins","S4","CompBio", 101000.00);
+INSERT INTO Instructor VALUES ("10109","William","S4","Math", 99000.00);
+INSERT INTO Instructor VALUES ("10110","Watson","S4","CompSci", 98000.00);
+INSERT INTO Instructor VALUES ("10111","Nelson","S5","CompBio", 97000.00);
+INSERT INTO Instructor VALUES ("10112","Farber","S5","CompBio", 101000.00);
+
+
+
+
+
+INSERT INTO Student VALUES ("xS10","Ralph", "CompSci","3");
+INSERT INTO Student VALUES ("xS11","Emory", "CompSci","3");
+INSERT INTO Student VALUES ("xS12","Jameson", "CompSci","3");
+INSERT INTO Student VALUES ("S1","Michaels", "CompSci","3");
+INSERT INTO Student VALUES ("S2","Peterson", "CompSci","3");
+INSERT INTO Student VALUES ("S3","Mullen", "CompSci","4");
+INSERT INTO Student VALUES ("S4","Scotts", "CompSci","2");
+INSERT INTO Student VALUES ("S5","Beuller", "CompSci","1");
+
+
+
+
+
+INSERT INTO Course VALUES ("CS100","Computer Theory", "CompSci","3");
+INSERT INTO Course VALUES ("CS200","Graphics", "CompSci","3");
+INSERT INTO Course VALUES ("CS300","Web Design", "CompSci","3");
+INSERT INTO Course VALUES ("CS400","Software Design", "CompSci","3");
+INSERT INTO Course VALUES ("CS500","Databases", "CompSci","3");
+INSERT INTO Course VALUES ("CS600","Bioinformatics", "CompSci","3");
+INSERT INTO Course VALUES ("EN201","English", "English","3");
+INSERT INTO Course VALUES ("FR301","French", "French","3");
+
+
+/* Usage: cat builder_campusDB.txt | sqlite3 campusDB.sqlite3 */
+/* sample query: */
+/* select d.deptName, c.title from department d, course c where c.deptName == d.deptName; */

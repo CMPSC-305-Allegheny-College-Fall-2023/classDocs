@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS Writers;
+
+CREATE TABLE Writers (
+id INTEGER NOT NULL PRIMARY KEY,
+first_name VARCHAR(15) NOT NULL,
+middle_name VARCHAR(15),
+last_name VARCHAR(15) NOT NULL,
+birth_date VARCHAR(10) NOT NULL,
+death_date VARCHAR(10),
+country_of_origin VARCHAR(20) NOT NULL
+);
+
+
+
+
+INSERT INTO Writers VALUES(1, 'Ezra', 'Weston Loomis', 'Pound', '30/10/1885', '1/11/1972', 'USA');
+INSERT INTO Writers VALUES(2, 'Arthur', 'Conan', 'Doyle', '05/22/1859', '07/7/1930', 'UK');
+INSERT INTO Writers VALUES(3, 'Ernest', 'Miller', 'Hemingway', '07/21/1899', '07/02/1961', 'USA');
+INSERT INTO Writers VALUES(4, 'John', 'Edward', 'Williams', '08/22/1922', '03/3/1994', 'USA');

@@ -1,0 +1,13 @@
+drop table if exists cars;
+
+CREATE TABLE IF NOT EXISTS "cars" ("ID" INTEGER, "brand" TEXT, "colour" TEXT, "year" INTEGER);
+
+INSERT INTO cars VALUES (01,"BMW","blue", 2023);
+INSERT INTO cars VALUES (02,"BMW","red", 2019);
+INSERT INTO cars VALUES (03,"BMW","yellow", 2021);
+INSERT INTO cars VALUES (04,"Toyota","grey", 2019);
+INSERT INTO cars VALUES (05,"Lexus","copper", 2023);
+
+SELECT * FROM cars;
+
+SELECT year from cars;

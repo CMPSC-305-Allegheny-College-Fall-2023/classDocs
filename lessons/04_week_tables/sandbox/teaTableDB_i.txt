@@ -1,0 +1,70 @@
+DROP TABLE IF EXISTS Department;
+
+CREATE TABLE Department (
+id TEXT NOT NULL PRIMARY KEY,
+dept TEXT NOT NULL,
+roomNum INTEGER NOT NULL
+);
+
+INSERT INTO Department Values ("JJ","CS",105);
+INSERT INTO Department Values ("OBC","CS",203);
+INSERT INTO Department Values ("DL","CS",106);
+INSERT INTO Department Values ("HZ","CS",104);
+
+
+
+DROP TABLE  IF EXISTS Tea;
+CREATE TABLE Tea (
+id TEXT NOT NULL PRIMARY KEY,
+tea INTEGER NOT NULL,
+sandwich TEXT NOT NULL
+);
+
+INSERT INTO Tea Values ("JJ",1,"Ruban");
+INSERT INTO Tea Values ("OBC",1,"Salad");
+INSERT INTO Tea Values ("DL",0,"Chicken");
+INSERT INTO Tea Values ("HZ",0,"Pizza");
+
+DROP TABLE IF EXISTS Session;
+CREATE TABLE Session (
+id TEXT NOT NULL PRIMARY KEY,
+session INTEGER NOT NULL,
+material TEXT NOT NULL
+);
+
+INSERT INTO Session Values ("JJ	", 101, "pres");
+INSERT INTO Session Values ("OBC", 112, "pres");
+INSERT INTO Session Values ("DL", 119,  "poster");
+INSERT INTO Session Values ("HZ", 103,  "poster");
+
+
+
+
+SELECT
+   Department.roomNum, Tea.sandwich
+FROM 
+   Department, Tea 
+WHERE 
+   Department.id == Tea.id;
+
+
+SELECT
+   Department.ID, Department.roomNum, Tea.sandwich, Session.session
+FROM 
+   Department, Tea, Session 
+WHERE 
+   Department.id == Tea.id
+AND
+   Department.id == Session.id;
+
+
+
+
+SELECT
+   Department.ID, Session.session
+FROM 
+   Department, Tea, Session 
+WHERE 
+   Department.id == Tea.id
+AND
+   Department.id == Session.id;
