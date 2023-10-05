@@ -253,5 +253,5 @@ Week # | Dates   | Topic |
 5 | 28th Sept, Thursday Class| Working with queries. [Activity04](https://classroom.github.com/a/0brEpScx) |
 5 | 28st Sept, Thursday| [Lab 04](https://classroom.github.com/a/T4uN15O6)|
 6 | 5th Oct, Tuesday | Integrity constraints  |
-6 | 5th Oct, Thursday Class| Keys |
-6 | 7th Oct, Thursday|  |
+6 | 5th Oct, Thursday Class| Primary and Foreign Keys [Activity05](https://classroom.github.com/a/oZjFs4VX)|
+6 | 7th Oct, Thursday| No new lab given, Lab 04 is due next week. |

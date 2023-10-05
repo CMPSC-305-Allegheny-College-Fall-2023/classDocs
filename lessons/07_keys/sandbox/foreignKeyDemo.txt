@@ -1,0 +1,51 @@
+/* Enable foreign keys*/
+/*  Turn off maintainance of foreign key constraints to allow table alteration.*/
+PRAGMA foreign_keys = OFF; 
+
+DROP TABLE IF EXISTS Cars;
+CREATE TABLE Cars (
+carMake VARCHAR PRIMARY KEY,
+registration VARCHAR,
+capacity INT,
+topSpeed INT );
+
+
+DROP TABLE IF EXISTS Agents;
+CREATE TABLE Agents (
+id INT PRIMARY KEY,
+lastName VARCHAR,
+vehicleMake VARCHAR,
+worksFor VARCHAR,
+FOREIGN KEY(vehicleMake) REFERENCES Cars(carMake) );
+
+
+/* Turn on maintenance of foreign key constraints*/
+PRAGMA foreign_keys = ON;
+
+INSERT INTO Cars values ('AstonMartin', 'MI6', 2, 130);
+
+INSERT INTO Agents values (1007, 'Bond', 'AstonMartin', 'MI6');
+INSERT INTO Agents values (1008, 'Wayne', 'AstonMartin', 'MI6');
+INSERT INTO Agents values (1009, 'Smith', 'AstonMartin', 'MI6');
+INSERT INTO Agents values (1010, 'Jones', 'AstonMartin', 'MI6');
+INSERT INTO Agents values (1011, 'Nicholson', 'AstonMartin', 'MI6');
+INSERT INTO Agents values (1012, 'Luxon', 'AstonMartin', 'MI6');
+INSERT INTO Agents values (1013, 'Churchill', 'AstonMartin', 'MI6');
+
+/* Error! Oh no! */
+INSERT INTO Agents values (2008, 'Billy', 'Buick', 'MI6');
+/* Error: need to first add "Buick" to the cars table!*/
+
+INSERT INTO Cars values ('Buick', 'MI6', 5, 60);
+
+INSERT INTO Agents values (2008, 'Billy', 'Buick', 'MI6');
+INSERT INTO Agents values (2011, 'E-jay', 'Buick', 'MI6');
+INSERT INTO Agents values (2012, 'Brick', 'Buick', 'MI6');
+INSERT INTO Agents values (2013, 'Wedge', 'Buick', 'MI6');
+INSERT INTO Agents values (2014, 'Orville', 'Buick', 'MI6');
+INSERT INTO Agents values (2015, 'Lester', 'Buick', 'MI6');
+INSERT INTO Agents values (2016, 'Wilbur', 'Buick', 'MI6');
+INSERT INTO Agents values (2017, 'Rufus', 'Buick', 'MI6');
+
+select * from Agents;
+select * from Cars;
