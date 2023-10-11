@@ -255,3 +255,6 @@ Week # | Dates   | Topic |
 6 | 5th Oct, Tuesday | Integrity constraints  |
 6 | 5th Oct, Thursday Class| Primary and Foreign Keys [Activity05](https://classroom.github.com/a/oZjFs4VX)|
 6 | 7th Oct, Thursday| No new lab given, Lab 04 is due next week. |
+7 | 10th Oct, Tuesday | Fall break  |
+7 | 5th Oct, Thursday Class| Building a database from constraints and Keys (Primary and Foreign) [Activity06](https://classroom.github.com/a/REGKiKq0)|
+7 | 7th Oct, Thursday| No lab meeting due to fall break |
