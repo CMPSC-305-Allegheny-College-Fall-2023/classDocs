@@ -1,0 +1,47 @@
+/*Drop the table if it already exists*/
+DROP TABLE IF EXISTS Orders;
+
+/*Create the Orders table*/
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    OrderDate DATE,
+    CustomerID INT
+);
+
+/*Insert sample data into the Orders table*/
+INSERT INTO Orders (OrderID, OrderDate, CustomerID)
+VALUES
+    (1, '2023-01-10', 101),
+    (2, '2023-01-15', 102),
+    (3, '2023-02-05', 103),
+    (4, '2023-02-10', 104);
+
+
+/*Drop the table if it already exists*/
+DROP TABLE IF EXISTS Customers;
+
+/*Create the Customers table*/
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(50)
+);
+
+/*Insert sample data into the Customers table*/
+INSERT INTO Customers (CustomerID, CustomerName)
+VALUES
+    (101, 'Alice Corp'),
+    (102, 'Bob Inc'),
+    (103, 'Carol Ltd');
+
+/*Perform a RIGHT JOIN to retrieve a list of all orders and their customers
+SELECT 
+   o.OrderID, o.OrderDate, c.CustomerName
+FROM 
+   Orders o
+RIGHT JOIN
+   Customers c 
+ON
+   o.CustomerID = c.CustomerID;
+
+
+

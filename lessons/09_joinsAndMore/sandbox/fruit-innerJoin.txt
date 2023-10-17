@@ -1,0 +1,28 @@
+DROP TABLE TableA;
+CREATE TABLE TableA (
+fruit VARCHAR,
+colour VARCHAR);
+
+DROP TABLE TableB;
+CREATE TABLE TableB (
+fruit VARCHAR,
+colour VARCHAR);
+
+INSERT INTO TableA VALUES ("Lemons_A","Yellow");
+INSERT INTO TableA VALUES ("Apples_A","Red");
+INSERT INTO TableA VALUES ("Grapes_A","Purple");
+
+INSERT INTO TableB VALUES ("Lemons_B","Yellow");
+INSERT INTO TableB VALUES ("Apples_B","Red");
+INSERT INTO TableB VALUES ("Oranges_B", "Orange");
+INSERT INTO TableB VALUES ("Grapes_B","Purple");
+
+
+.tables
+
+SELECT * from TableA;
+SELECT* from TableB;
+
+SELECT TableA.fruit, TableA.colour, TableB.colour FROM TableA INNER JOIN  TableB ON TableB.colour == TableA.colour;
+
+select TableA.fruit, TableA.colour, TableB.colour, TableB.fruit FROM TableA INNER JOIN TableB ON TableB.colour == TableA.colour;

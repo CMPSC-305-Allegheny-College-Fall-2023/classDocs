@@ -1,0 +1,47 @@
+/*Drop the table if it already exists*/
+DROP TABLE IF EXISTS Employees;
+
+/*Create the Employees table*/
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR,
+    LastName VARCHAR,
+    DepartmentID INT
+);
+
+/*Insert sample data into the Employees table*/
+INSERT INTO Employees (EmployeeID, FirstName, LastName, DepartmentID)
+VALUES
+    (1, 'John', 'Doe', 1),
+    (2, 'Jane', 'Smith', 2),
+    (3, 'Bob', 'Johnson', 1),
+    (4, 'Alice', 'Williams', NULL);
+
+/*Drop the table if it already exists*/
+DROP TABLE IF EXISTS Departments;
+
+/*Create the Departments table*/
+CREATE TABLE Departments (
+    DepartmentID INT PRIMARY KEY,
+    DepartmentName VARCHAR
+);
+
+/*Insert sample data into the Departments table*/
+INSERT INTO Departments (DepartmentID, DepartmentName)
+VALUES
+    (1, 'HR'),
+    (2, 'IT'),
+    (3, 'Finance');
+
+
+/*Perform a LEFT JOIN to retrieve a list of all employees and their departments*/
+SELECT
+   e.EmployeeID, e.FirstName, e.LastName, d.DepartmentName
+FROM 
+   Employees e
+LEFT JOIN
+   Departments d
+ON
+   e.DepartmentID = d.DepartmentID;
+
+
