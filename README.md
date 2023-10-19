@@ -260,4 +260,4 @@ Week # | Dates   | Topic |
 7 | 7th Oct, Thursday| No lab meeting due to fall break |
 8 | 17th-19th Oct, Tuesday | Joins, DB Browser for SQLite, Fine tweaking queries  |
 8 | 19th Oct, Thursday | Class fine tuning queries [Activity07](https://classroom.github.com/a/jQl-k7yk)|
-8 | 19th Oct, Thursday|  |
+8 | 19th Oct, Thursday| [Lab05](https://classroom.github.com/a/1JQw4_zP) |
