@@ -263,5 +263,5 @@ Week # | Dates   | Topic |
 8 | 19th Oct, Thursday| [Lab05](https://classroom.github.com/a/1JQw4_zP) |
 9 | 24th Oct, Tuesday | GatorDay: No classes  |
 9 | 26th Oct, Thursday | Using Python to manage a database [Activity08](https://classroom.github.com/a/mfvLZXxo)|
-9 | 19th Oct, Thursday| [Lab06](https://classroom.github.com/a/nlfW3Avl)
+9 | 26th Oct, Thursday| [Lab06](https://classroom.github.com/a/nlfW3Avl)
  |
