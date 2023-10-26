@@ -261,3 +261,6 @@ Week # | Dates   | Topic |
 8 | 17th-19th Oct, Tuesday | Joins, DB Browser for SQLite, Fine tweaking queries  |
 8 | 19th Oct, Thursday | Class fine tuning queries [Activity07](https://classroom.github.com/a/jQl-k7yk)|
 8 | 19th Oct, Thursday| [Lab05](https://classroom.github.com/a/1JQw4_zP) |
+9 | 24th Oct, Tuesday | GatorDay: No classes  |
+9 | 26th Oct, Thursday | Using Python to manage a database [Activity08](https://classroom.github.com/a/mfvLZXxo)|
+9 | 19th Oct, Thursday|  |
