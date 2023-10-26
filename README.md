@@ -82,11 +82,11 @@ The following definitions were taken from the Distribution Requirements: Learnin
 
     + Learning Outcome: Students who successfully complete this requirement will demonstrate an understanding of the nature, approaches, and domain of scientific inquiry.
 
-This course meets the course distribution requirements of QR (*Quantitative Reasoning*) and SP (*Scientific Process and Knowledge*) for its use of applying concepts of computer programming to the design and creation databases which are tested on public data from real-world applications. In addition, the class aims to introduce an component of ethical reasoning in the design, maintenance and application of database systems for potentially sensitive data.
+This course meets the course distribution requirements of QR (_Quantitative Reasoning_) and SP (_Scientific Process and Knowledge_) for its use of applying concepts of computer programming to the design and creation databases which are tested on public data from real-world applications. In addition, the class aims to introduce an component of ethical reasoning in the design, maintenance and application of database systems for potentially sensitive data.
 
 ## Course Objectives
 
-The essence of the discipline of computer science is algorithms; this course will introduce students to the principles of data management using algorithms. 
+The essence of the discipline of computer science is algorithms; this course will introduce students to the principles of data management using algorithms.
 
 * To investigate some of the key technologies that scientists use to manage data.
 
@@ -106,7 +106,7 @@ The course also invites students to assess the correctness of their implementati
 
 ## An Ethical Interest
 
-Throughout the semester students will be challenged with serious or real-world types of questions concerning databases, data, usage and security. While no actual or definitive answers can be given regarding "correct" procedure in reaching solutions, students will reason with potential solutions and ideas to determine methods and techniques which should be motivated by ethical conduct. 
+Throughout the semester students will be challenged with serious or real-world types of questions concerning databases, data, usage and security. While no actual or definitive answers can be given regarding "correct" procedure in reaching solutions, students will reason with potential solutions and ideas to determine methods and techniques which should be motivated by ethical conduct.
 
 The so-called “right” decision ought to be made by technologists who have studied both the data, and the consequences of decision in terms of humanitarian, environmental, ecological and other factors. This class cannot give students the correct decision, however it can help to enable  critical thinking skills which will provide students with some understanding of how to navigate to worthy decisions.
 
@@ -177,19 +177,19 @@ git add -A
 git commit -m "informative commit message" 
 git push
 ```
-**Note**: The commit message is supposed to be a meaning message about the pushed work. Please do not add commit states such as **My homework**, **Done**, **Oh yeah!**, or the like -- these message provide no information about the work that was sent to GitHub.
+**Note**: The commit message is supposed to be a meaning message about the pushed work. Please do not add commit states such as __My homework__, __Done__, __Oh yeah!__, or the like -- these message provide no information about the work that was sent to GitHub.
 
 ### Late Submissions
 
 All assignments will have a stated due date. The electronic version of the class assignments are to be turned in at the beginning of the lab session on the due date. Submissions after the beginning of class are counted as being late.
 
-**Assignments will be accepted for up to one week past the assigned due date with a 15% penalty. After that time, the lab will not be accepted.** 
+__Assignments will be accepted for up to one week past the assigned due date with a 15% penalty. After that time, the lab will not be accepted.__
 
-**Please note, lab solutions will be discussed after the one week late submission deadline. Therefore, any submission of the assignments following that deadline will not be possible.**
+__Please note, lab solutions will be discussed after the one week late submission deadline. Therefore, any submission of the assignments following that deadline will not be possible.__
 
 ### Extensions
 
-Unless special arrangements are made with the course instructor, **no assignments will be accepted after the late deadline.** If you are requesting extensions for a lab assignment, then you are to email me with your request and also provide a *valid* reason for your extension. This request must come before the due date of the lab and __not__ on the due date.
+Unless special arrangements are made with the course instructor, __no assignments will be accepted after the late deadline.__ If you are requesting extensions for a lab assignment, then you are to email me with your request and also provide a _valid_ reason for your extension. This request must come before the due date of the lab and __not__ on the due date.
 
 The decision to provide you with an extension (or not) will be weighed in light of fairness to your peers who are still able to complete their labs, regardless of their own busy schedules.
 
