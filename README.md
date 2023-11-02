@@ -264,6 +264,6 @@ Week # | Dates   | Topic |
 9 | 24th Oct, Tuesday | GatorDay: No classes  |
 9 | 26th Oct, Thursday | Using Python to manage a database [Activity08](https://classroom.github.com/a/mfvLZXxo)|
 9 | 26th Oct, Thursday| [Lab06](https://classroom.github.com/a/nlfW3Avl)
-10 | 31th Oct, Tuesday | Streamlit coding  |
+10 | 31th Oct, Tuesday | Streamlit coding for a DBMS |
 10 | 2nd Nov, Thursday | Django [Activity09](https://classroom.github.com/a/l2qpZkD6)|
 10 | 2nd Nov, Thursday| We are meeting to cover questions over previous lab |
