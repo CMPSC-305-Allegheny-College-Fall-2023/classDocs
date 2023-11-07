@@ -267,3 +267,5 @@ Week # | Dates   | Topic |
 10 | 31th Oct, Tuesday | Streamlit coding for a DBMS |
 10 | 2nd Nov, Thursday | Django [Activity09](https://classroom.github.com/a/l2qpZkD6)|
 10 | 2nd Nov, Thursday| We are meeting to cover questions over previous lab |
+11 | 7 Nov, Tuesday | MongoDB: an introduction |
+11 | 9 Nov, Thursday | Midterm exam during class and lab time, due at 4:20pm |
