@@ -269,3 +269,6 @@ Week # | Dates   | Topic |
 10 | 2nd Nov, Thursday| We are meeting to cover questions over previous lab |
 11 | 7 Nov, Tuesday | MongoDB: an introduction |
 11 | 9 Nov, Thursday | Midterm exam during class and lab time, due at 4:20pm |
+12 | 14th Nov, Tuesday | MongoDB: Queries |
+12 | 16th Nov, Tuesday | MongoDB: hands-on using own Docker-MongoDB system|
+12 | 16th Nov, Thursday| Lab |
