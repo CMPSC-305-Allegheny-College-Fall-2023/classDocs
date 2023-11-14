@@ -1,0 +1,118 @@
+db.employee.insertMany(
+  [{
+    "_id": "5c89c73ea91e2b221611b950",
+    "index": 0,
+    "guid": "5f86000e-3291-4f32-a33c-6a589c829d43",
+    "isActive": true,
+    "balance": "$3,294.70",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "brown",
+    "name": {
+      "first": "Pennington",
+      "last": "Moss"
+    },
+    "company": "RADIANTIX",
+    "email": "pennington.moss@radiantix.tv",
+    "phone": "+1 (881) 579-3121",
+    "address": "321 Banker Street, Moquino, Kansas, 6772",
+    "about": "Qui aliqua magna eiusmod fugiat irure dolor tempor magna amet tempor labore sint. Incididunt qui fugiat proident laborum adipisicing culpa labore mollit excepteur reprehenderit esse cillum ad. Est nulla dolore voluptate nisi sit tempor consequat adipisicing aliqua. Do qui sit amet incididunt nulla consectetur labore reprehenderit laboris nostrud laborum. Dolor sunt officia elit velit ad ad ex ut dolore deserunt non elit. Labore minim occaecat do sunt consequat. Non elit magna in ea incididunt id reprehenderit.",
+    "registered": "Monday, March 11, 2019 8:46 PM",
+    "latitude": "-76.954744",
+    "longitude": "17.622042",
+    "tags": [
+      "cupidatat",
+      "proident",
+      "nisi",
+      "veniam",
+      "culpa"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lucia Mclean"
+      },
+      {
+        "id": 1,
+        "name": "Nadia Soto"
+      },
+      {
+        "id": 2,
+        "name": "Mae Elliott"
+      }
+    ],
+    "greeting": "Hello, Pennington! You have 5 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "5c89c73ec4863a49668b3784",
+    "index": 1,
+    "guid": "947fda28-35f0-4146-aadf-8b8babb473fc",
+    "isActive": true,
+    "balance": "$1,949.33",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "green",
+    "name": {
+      "first": "Belinda",
+      "last": "Guzman"
+    },
+    "company": "BEADZZA",
+    "email": "belinda.guzman@beadzza.org",
+    "phone": "+1 (969) 443-3778",
+    "address": "157 Quay Street, Yogaville, Mississippi, 1616",
+    "about": "Quis do laborum non aliquip laboris pariatur ipsum eiusmod. Veniam sint deserunt Lorem ut veniam excepteur Lorem velit. Cupidatat proident aliqua laborum ullamco.",
+    "registered": "Saturday, October 22, 2016 7:07 AM",
+    "latitude": "-34.467788",
+    "longitude": "116.202762",
+    "tags": [
+      "aute",
+      "sunt",
+      "ut",
+      "nisi",
+      "incididunt"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bryan Frederick"
+      },
+      {
+        "id": 1,
+        "name": "Navarro Rutledge"
+      },
+      {
+        "id": 2,
+        "name": "Jacklyn Eaton"
+      }
+    ],
+    "greeting": "Hello, Belinda! You have 10 unread messages.",
+    "favoriteFruit": "strawberry"
+  }
+  ])
+
+db.employee.find({},{"greeting":1}).pretty()

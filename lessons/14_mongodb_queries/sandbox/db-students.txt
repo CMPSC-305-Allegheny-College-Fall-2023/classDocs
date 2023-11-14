@@ -1,0 +1,25 @@
+db.students.insertMany([
+{ "name": "John Doe", "age": 18, "city": "New York", "course":"CS" },
+{ "name": "Jane Smith", "age": 18, "city": "Los Angeles", "course":"CS"  },
+{ "name": "David Johnson", "age": 17, "city": "Chicago", "course":"CS"  },
+{ "name": "Emily Wilson", "age": 19, "city": "San Francisco", "course":"CS"  },
+{ "name": "Michael Brown", "age": 15, "city": "Miami" , "course":"Bio"},
+{ "name": "Sarah Davis", "age": 18, "city": "Houston", "course":"Bio" },
+{ "name": "Robert Lee", "age": 19, "city": "Dallas", "course":"Bio" },
+{ "name": "Linda Martinez", "age": 18, "city": "Phoenix","course":"CS" },
+{ "name": "William Taylor", "age": 16, "city": "Seattle" , "course":"Bio"},
+{ "name": "Karen Harris", "age": 16, "city": "Denver", "course":"Bio" },
+{ "name": "James Anderson", "age": 21, "city": "Boston", "course":"Bio"  },
+{ "name": "Susan White", "age": 20, "city": "Atlanta", "course":"Bio" },
+{ "name": "Daniel Hall", "age": 17, "city": "San Diego", "course":"Eng" },
+{ "name": "Melissa Clark", "age": 18, "city": "Philadelphia", "course":"Eng" },
+{ "name": "Richard Adams", "age": 19, "city": "Detroit", "course":"Phl" },
+{ "name": "Amanda Green", "age": 17, "city": "Minneapolis", "course":"CS"  },
+{ "name": "Thomas Turner", "age": 19, "city": "Portland", "course":"Eng" },
+{ "name": "Jennifer King", "age": 17, "city": "Boston", "course":"Bio" },
+{ "name": "Christopher Moore", "age": 17, "city": "Austin", "course":"CS"  },
+{ "name": "Megan Baker", "age": 20, "city": "Raleigh", "course":"Eng" }
+])
+
+# db.students.find({"name":"Megan Baker"}).pretty()
+db.students.find({"city": "Boston"},{"name":1,"course":1}).pretty()

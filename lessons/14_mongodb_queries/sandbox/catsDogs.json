@@ -1,0 +1,102 @@
+db.catsdogs.insertMany([
+    {
+      "type": "Cat",
+      "breed": "Persian",
+      "color": "White",
+      "age": 3,
+      "weight": 5.5,
+      "personality": "Calm and affectionate",
+      "vaccinations": ["FVRCP", "FeLV"],
+      "owner": {
+        "name": "Alice",
+        "contact": "alice@example.com"
+      }
+    },
+    {
+      "type": "Dog",
+      "breed": "Labrador Retriever",
+      "color": "Golden",
+      "age": 2,
+      "weight": 70.0,
+      "personality": "Energetic and friendly",
+      "vaccinations": ["DHPP", "Rabies"],
+      "owner": {
+        "name": "Bob",
+        "contact": "bob@example.com"
+      }
+    },
+    {
+      "type": "Cat",
+      "breed": "Siamese",
+      "color": "Seal Point",
+      "age": 1,
+      "weight": 4.0,
+      "personality": "Playful and vocal",
+      "vaccinations": ["FVRCP"],
+      "owner": {
+        "name": "Charlie",
+        "contact": "charlie@example.com"
+      }
+    },
+    {
+      "type": "Dog",
+      "breed": "German Shepherd",
+      "color": "Black and Tan",
+      "age": 4,
+      "weight": 80.0,
+      "personality": "Intelligent and loyal",
+      "vaccinations": ["DHPP", "Bordetella"],
+      "owner": {
+        "name": "Diana",
+        "contact": "diana@example.com"
+      }
+    },
+    {
+            "type": "cat",
+            "breed": "Persian",
+            "color": "White",
+            "age": 3,
+            "characteristics": ["Fluffy", "Calm", "Independent"],
+            "owner": {
+              "name": "Alice",
+              "address": "123 Main St",
+              "contact": "555-1234"
+            }
+          },
+          {
+            "type": "cat",
+            "breed": "Siamese",
+            "color": "Brown",
+            "age": 2,
+            "characteristics": ["Talkative", "Playful", "Social"],
+            "owner": {
+              "name": "Bob",
+              "address": "456 Oak Ave",
+              "contact": "555-5678"
+            }
+          },
+          {
+            "type": "dog",
+            "breed": "Labrador Retriever",
+            "color": "Yellow",
+            "age": 4,
+            "characteristics": ["Energetic", "Friendly", "Intelligent"],
+            "owner": {
+              "name": "Charlie",
+              "address": "789 Pine Blvd",
+              "contact": "555-9012"
+            }
+          },
+          {
+            "type": "dog",
+            "breed": "German Shepherd",
+            "color": "Black and Tan",
+            "age": 5,
+            "characteristics": ["Loyal", "Protective", "Smart"],
+            "owner": {
+              "name": "Diana",
+              "address": "101 Cedar St",
+              "contact": "555-3456"
+            }
+          }
+])
