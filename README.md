@@ -259,7 +259,7 @@ Week # | Dates   | Topic |
 7 | 5th Oct, Thursday Class| Building a database from constraints and Keys (Primary and Foreign) [Activity06](https://classroom.github.com/a/REGKiKq0)|
 7 | 7th Oct, Thursday Lab| No lab meeting due to fall break |
 8 | 17th Oct, Tuesday Class | Joins, DB Browser for SQLite, Fine tweaking queries  |
-8 | 19th Oct, Thursday | Class fine tuning queries [Activity07](https://classroom.github.com/a/jQl-k7yk)|
+8 | 19th Oct, Thursday Class| fine tuning queries [Activity07](https://classroom.github.com/a/jQl-k7yk)|
 8 | 19th Oct, Thursday Lab| [Lab05](https://classroom.github.com/a/1JQw4_zP) |
 9 | 24th Oct, Tuesday Class | GatorDay: No classes  |
 9 | 26th Oct, Thursday Class | Using Python to manage a database [Activity08](https://classroom.github.com/a/mfvLZXxo) class|
