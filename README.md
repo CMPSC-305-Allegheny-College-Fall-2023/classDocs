@@ -236,39 +236,43 @@ Types of computer hardware and software are everywhere! Conducting research in c
 Below is a schedule of covered topics as we cover them, along with their associated activities.
 
 Week # | Dates   | Topic |
----------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-1 | 29 August 2023  | [Syllabus](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs#readme) , [classDocs/](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs), Introduction to the course, Why databases systems?|
-1 | 31st August 2023 | Discussion and Activity |
-1 | | No lab| N/A |
+---------------- | ------- | -------------------------------- |
+1 | 29 August 2023  Class | [Syllabus](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs#readme), [classDocs/](https://github.com/CMPSC-305-Allegheny-College-Fall-2023/classDocs), Introduction to the course, Why databases systems?|
+1 | 31st August 2023 Class | Discussion and Activity |
+1 | 31st August 2023 Lab | No lab meeting
 2 | 5th Sept, Tuesday Class | Focus on Applications, faults and SQL code
 2 | 7th Sept, Thursday Class | [Activity 01](https://classroom.github.com/a/8NOsKp2G)
-2 | 7th Sept, Thursday | [Lab01](https://classroom.github.com/a/Lk_R2L-F) *Note*: you will have to refresh your GitHub page after clicking on this link. |
+2 | 7th Sept, Thursday Lab | [Lab01](https://classroom.github.com/a/Lk_R2L-F) *Note*: you will have to refresh your GitHub page after clicking on this link. |
 3 | 12th Sept, Tuesday Class| SQLite3 and single table persistent databases|
 3 | 14th Sept, Thursday Class| Single tables and importing data [Activity 02](https://classroom.github.com/a/Z2eDzQ58)
-3 | 14th Sept, Thursday| [Lab 02](https://classroom.github.com/a/A7J5bNso)|
-4 | 19th Sept, Tuesday | Class designing a database with multiple Tables |
+3 | 14th Sept, Thursday Lab| [Lab 02](https://classroom.github.com/a/A7J5bNso)|
+4 | 19th Sept, Tuesday Class | Designing a database with multiple Tables |
 4 | 21st Sept, Thursday Class| Working with multiple tables in SQL [Activity 03](https://classroom.github.com/a/O-V0I1hr) |
-4 | 21st Sept, Thursday| [Lab 03](https://classroom.github.com/a/r05cVH4X)|
-5 | 19th Sept, Tuesday | A focus on queries: structure and usage |
+4 | 21st Sept, Thursday Lab| [Lab 03](https://classroom.github.com/a/r05cVH4X)|
+5 | 19th Sept, Tuesday Class | A focus on queries: structure and usage |
 5 | 28th Sept, Thursday Class| Working with queries. [Activity04](https://classroom.github.com/a/0brEpScx) |
-5 | 28st Sept, Thursday| [Lab 04](https://classroom.github.com/a/T4uN15O6)|
-6 | 5th Oct, Tuesday | Integrity constraints  |
+5 | 28st Sept, Thursday Lab| [Lab 04](https://classroom.github.com/a/T4uN15O6)|
+6 | 5th Oct, Tuesday Class| Integrity constraints  |
 6 | 5th Oct, Thursday Class| Primary and Foreign Keys [Activity05](https://classroom.github.com/a/oZjFs4VX)|
-6 | 7th Oct, Thursday| No new lab given, Lab 04 is due next week. |
+6 | 7th Oct, Thursday Lab| No new lab given, Lab 04 is due next week. |
 7 | 10th Oct, Tuesday | Fall break  |
 7 | 5th Oct, Thursday Class| Building a database from constraints and Keys (Primary and Foreign) [Activity06](https://classroom.github.com/a/REGKiKq0)|
-7 | 7th Oct, Thursday| No lab meeting due to fall break |
-8 | 17th-19th Oct, Tuesday | Joins, DB Browser for SQLite, Fine tweaking queries  |
+7 | 7th Oct, Thursday Lab| No lab meeting due to fall break |
+8 | 17th Oct, Tuesday Class | Joins, DB Browser for SQLite, Fine tweaking queries  |
 8 | 19th Oct, Thursday | Class fine tuning queries [Activity07](https://classroom.github.com/a/jQl-k7yk)|
-8 | 19th Oct, Thursday| [Lab05](https://classroom.github.com/a/1JQw4_zP) |
-9 | 24th Oct, Tuesday | GatorDay: No classes  |
-9 | 26th Oct, Thursday | Using Python to manage a database [Activity08](https://classroom.github.com/a/mfvLZXxo)|
-9 | 26th Oct, Thursday| [Lab06](https://classroom.github.com/a/nlfW3Avl)
-10 | 31th Oct, Tuesday | Streamlit coding for a DBMS |
-10 | 2nd Nov, Thursday | Django [Activity09](https://classroom.github.com/a/l2qpZkD6)|
-10 | 2nd Nov, Thursday| We are meeting to cover questions over previous lab |
-11 | 7 Nov, Tuesday | MongoDB: an introduction |
-11 | 9 Nov, Thursday | Midterm exam during class and lab time, due at 4:20pm |
-12 | 14th Nov, Tuesday | MongoDB: Queries |
-12 | 16th Nov, Thursday | MongoDB: hands-on using own Docker-MongoDB system|
-12 | 16th Nov, Thursday| MongoDB and Docker [Lab 07](https://classroom.github.com/a/sB4lF16V) |
+8 | 19th Oct, Thursday Lab| [Lab05](https://classroom.github.com/a/1JQw4_zP) |
+9 | 24th Oct, Tuesday Class | GatorDay: No classes  |
+9 | 26th Oct, Thursday Class | Using Python to manage a database [Activity08](https://classroom.github.com/a/mfvLZXxo) class|
+9 | 26th Oct, Thursday Lab| [Lab06](https://classroom.github.com/a/nlfW3Avl)
+10 | 31th Oct, Tuesday Class | Streamlit coding for a DBMS |
+10 | 2nd Nov, Thursday Class| Django [Activity09](https://classroom.github.com/a/l2qpZkD6)|
+10 | 2nd Nov, Thursday Lab | We are meeting to cover questions over previous lab |
+11 | 7 Nov, Tuesday Class | MongoDB: an introduction. [Good tutorial ffrom MongoDB](https://www.youtube.com/watch?v=xwdubUq9Ri8) |
+11 | 9 Nov, Thursday Class | Midterm exam during class and lab time, due at 4:20pm |
+11 | 9 Nov, Thursday Lab | work on midterm exam, due at 4:20pm |
+12 | 14th Nov, Tuesday Class | MongoDB: Queries |
+12 | 16th Nov, Thursday Class| MongoDB: hands-on using own Docker-MongoDB system|
+12 | 16th Nov, Thursday Lab| MongoDB and Docker [Lab 07](https://classroom.github.com/a/sB4lF16V) |
+13 | 21 Nov, Tuesday Class| MongoDB and Python |
+13 | 23 Nov, Thursday Class | Thanksgiving break!|
+13 | 23 Nov, Thursday Lab | Thanksgiving break!|
