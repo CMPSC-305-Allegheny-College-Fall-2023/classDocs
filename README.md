@@ -273,6 +273,6 @@ Week # | Dates   | Topic |
 12 | 14th Nov, Tuesday Class | MongoDB: Queries |
 12 | 16th Nov, Thursday Class| MongoDB: hands-on using own Docker-MongoDB system|
 12 | 16th Nov, Thursday Lab| MongoDB and Docker [Lab 07](https://classroom.github.com/a/sB4lF16V) |
-13 | 21 Nov, Tuesday Class| MongoDB and Python |
+13 | 21 Nov, Tuesday Class| MongoDB and Python [Activity 10](https://classroom.github.com/a/cWNnapXn)|
 13 | 23 Nov, Thursday Class | Thanksgiving break!|
 13 | 23 Nov, Thursday Lab | Thanksgiving break!|
