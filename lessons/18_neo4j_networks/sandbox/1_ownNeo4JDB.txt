@@ -1,0 +1,35 @@
+MATCH (n) DETACH DELETE (n)
+
+
+// add nodes
+
+CREATE (
+   :Teacher {
+   name: "Teacher",
+   Jackjet: "green",
+   Jeans: "blue",
+   MarkerCol: "red"}
+ )
+ FOREACH (r IN range(0,5)|
+    CREATE (
+      :Student { name:"Student" + r,
+      extraUtility: "backpack" + r,
+      lastTestScore:tan(rand())*100 })
+      )
+CREATE (:TA { name: "TA", Machine: "Laptop"})
+
+// show nodes
+
+MATCH (n) RETURN (n)
+
+
+// add edges
+
+MATCH (t:Teacher), (s:Student), (a:TA)
+MERGE (t) - [:INSTRUCTS] -> (s) <-[:HELPS] - (a)
+MERGE (a) - [:LISTENS_TO] -> (t)
+MERGE (t) - [:INSTRUCTS] -> (a) <-[:HELPS] - (s)
+
+// show schema
+
+call db.schema.visualization

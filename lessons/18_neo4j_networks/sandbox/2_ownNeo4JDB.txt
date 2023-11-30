@@ -1,0 +1,51 @@
+MATCH (n) DETACH DELETE (n)
+
+
+CREATE(
+ :Woodwinds {
+   name:"windPlayer",
+   instrument:"clarinet"} )
+
+CREATE(
+ :Percussions {
+  name:"PercussionPlayer",
+  instrument:"Drum"} )
+
+
+MATCH (n) RETURN n
+
+
+CREATE(
+ :Strings {
+  name:"StringPlayers",
+  instrument_1:"guitar",
+  instrument_2:"violin"} )
+	
+CREATE(
+ :Audience {
+  name:"Listener"} )
+
+CREATE(
+ :Conductor {
+  name: "Conductor",
+  instrument_1:"baton"} )
+
+
+MATCH (n) RETURN n
+
+
+MATCH (w:Woodwinds), (p:Percussions), (s: Strings), (a:Audience), (c:Conductor)
+MERGE (w) - [:FOLLOWS] -> (p) <-[:DIRECTS] - (c)
+MERGE (p) - [:LEADS] -> (s) <-[:DIRECTS] - (c)
+MERGE (s) - [:WATCHES] -> (c)
+
+MERGE (w) - [:PLAYS_For] -> (a)
+MERGE (p) - [:PLAYS_For] -> (a)
+MERGE (s) - [:PLAYS_For] -> (a)
+
+MERGE (a) - [:CLAPS_FOR] -> (w)
+MERGE (a) - [:CLAPS_FOR] -> (p)
+MERGE (a) - [:CLAPS_FOR] -> (s)
+MERGE (a) - [:CLAPS_FOR] -> (c)
+
+MATCH (n) RETURN n
