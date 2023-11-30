@@ -276,3 +276,6 @@ Week # | Dates   | Topic |
 13 | 21 Nov, Tuesday Class| MongoDB and Python [Activity 10](https://classroom.github.com/a/cWNnapXn)|
 13 | 23 Nov, Thursday Class | Thanksgiving break!|
 13 | 23 Nov, Thursday Lab | Thanksgiving break!|
+14 | 28th Nov, Tuesday Class  | Cancelled due to weather |
+14 | 16th Nov, Thursday Class| Neo4J: hands-on using own Docker-Neo4J system|
+14 | 16th Nov, Thursday Lab| Speakers from Acutec. It is very important that you come!!|
