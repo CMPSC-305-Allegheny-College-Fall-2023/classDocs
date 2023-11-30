@@ -277,5 +277,5 @@ Week # | Dates   | Topic |
 13 | 23 Nov, Thursday Class | Thanksgiving break!|
 13 | 23 Nov, Thursday Lab | Thanksgiving break!|
 14 | 28th Nov, Tuesday Class  | Cancelled due to weather |
-14 | 16th Nov, Thursday Class| Neo4J: hands-on using own Docker-Neo4J system|
-14 | 16th Nov, Thursday Lab| Speakers from Acutec. It is very important that you come!!|
+14 | 30th Nov, Thursday Class| Neo4J: hands-on using own Docker-Neo4J system|
+14 | 30th Nov, Thursday Lab| Speakers from Acutec. It is very important that you come!!|
