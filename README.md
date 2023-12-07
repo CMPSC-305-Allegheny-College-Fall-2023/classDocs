@@ -280,5 +280,5 @@ Week # | Dates   | Topic |
 14 | 30th Nov, Thursday Class| Neo4J: hands-on using own Docker-Neo4J system|
 14 | 30th Nov, Thursday Lab| Speakers from Acutec. It is very important that you come!!|
 15 | 5th Dec, Tuesday Class  | Neo4J hands-on, Assignment and discussion of [Final Project (group assignment)](https://classroom.github.com/a/ZgOF86vP) NOTE: BEFORE CLICKING ON URL, ESTABLISH GROUPS, CHOOSE NAME AND THEN HAVE YOUR MEMBERS ENTER GROUP BY CHOOSING NAME AFTER CLICKING ON URL LINK. |
-15 | 7th Nov, Thursday Class| Activity (It is very important that you come to class!!) |
+15 | 7th Nov, Thursday Class| [Survey](https://docs.google.com/forms/d/1f8_k1V1ZJbl5ayu71P2axj-NxQ2dypXjd2yup-FozIY/edit) (It is very important that you come to class!!) |
 15 | 30th Nov, Thursday Lab| Work time for projects|
