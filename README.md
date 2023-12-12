@@ -280,5 +280,8 @@ Week # | Dates   | Topic |
 14 | 30th Nov, Thursday Class| Neo4J: hands-on using own Docker-Neo4J system|
 14 | 30th Nov, Thursday Lab| Speakers from Acutec. It is very important that you come!!|
 15 | 5th Dec, Tuesday Class  | Neo4J hands-on, Assignment and discussion of [Final Project (group assignment)](https://classroom.github.com/a/ZgOF86vP) NOTE: BEFORE CLICKING ON URL, ESTABLISH GROUPS, CHOOSE NAME AND THEN HAVE YOUR MEMBERS ENTER GROUP BY CHOOSING NAME AFTER CLICKING ON URL LINK. |
-15 | 7th Nov, Thursday Class| [Survey](https://docs.google.com/forms/d/1f8_k1V1ZJbl5ayu71P2axj-NxQ2dypXjd2yup-FozIY/edit) (It is very important that you come to class!!) |
-15 | 30th Nov, Thursday Lab| Work time for projects|
+15 | 7th Dec, Thursday Class| The Course Review, [Survey](https://docs.google.com/forms/d/1f8_k1V1ZJbl5ayu71P2axj-NxQ2dypXjd2yup-FozIY/edit) (It is very important that you come to class!!) |
+15 | 7th Dec, Thursday Lab| Work time for projects|
+16 | 12th Dec, Tuesday Class  | Non-graded departmental [Assessment](https://classroom.github.com/a/HbDBc4q3); Pick your name on the list and accept the assignment. Please work only in CodeSpaces, not locally. Be sure to manually commit your changes after 50 minutes, Only 50 minutes total time to work.  |
+16 | 14th Dec, Thursday Class| No class, work on projects|
+16 | 14th Dec, Thursday Lab| No lab meeting, work on projects|
